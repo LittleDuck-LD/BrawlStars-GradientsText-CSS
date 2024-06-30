@@ -1,0 +1,33 @@
+.gradients-color {
+    /*background-image: linear-gradient(to right,
+        rgba(249, 230, 255, 1),
+        rgba(226, 163, 255, 1),
+        rgba(255, 254, 255, 1),
+        rgba(194, 243, 255, 1),
+  
+        rgba(194, 243, 255, 1),
+        rgba(255, 254, 255, 1),
+        rgba(226, 163, 255, 1),
+        rgba(249, 230, 255, 1),
+        rgba(226, 163, 255, 1),
+        rgba(255, 254, 255, 1),
+        rgba(194, 243, 255, 1),
+  
+        rgba(194, 243, 255, 1),
+        rgba(255, 254, 255, 1),
+        rgba(226, 163, 255, 1),
+        rgba(249, 230, 255, 1)
+        ); */
+  
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-background-size: 200% 100%;
+    animation: bgp 2.5s infinite linear;
+    font-size: x-large;
+    font-weight: bolder;
+    -webkit-text-stroke: 1px #000;
+    filter: drop-shadow(#000 0px 1px 0px);
+    -webkit-filter: drop-shadow(#000 0px 1px 0px);
+    filter: drop-shadow(#000 0px 2px 0px);
+    -webkit-filter: drop-shadow(#000 0px 2px 0px);
+  }
